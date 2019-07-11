@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C02BC0CCCA310263196150 /* Pods_WMTagViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1EDF09A9937A78727EFC00 /* Pods_WMTagViewUITests.framework */; };
+		7A135CDE22D6CB3E0036AFAA /* WMTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135CDD22D6CB3E0036AFAA /* WMTagView.swift */; };
+		7A135D2522D7034F0036AFAA /* WMDeleteListenTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2422D7034F0036AFAA /* WMDeleteListenTextField.swift */; };
+		7A135D2722D70B560036AFAA /* WMCopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2622D70B560036AFAA /* WMCopyableLabel.swift */; };
+		7A135D2B22D721BF0036AFAA /* WMTagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2A22D721BF0036AFAA /* WMTagLabel.swift */; };
+		7A135D2D22D7257C0036AFAA /* WMTagMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2C22D7257C0036AFAA /* WMTagMaker.swift */; };
+		7A135D2F22D7348E0036AFAA /* AddTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2E22D7348E0036AFAA /* AddTagViewController.swift */; };
+		7A135D3122D734A90036AFAA /* ShowTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D3022D734A90036AFAA /* ShowTagViewController.swift */; };
+		7AA47E7822D60A3B0019ED1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47E7722D60A3B0019ED1C /* AppDelegate.swift */; };
+		7AA47E7A22D60A3B0019ED1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47E7922D60A3B0019ED1C /* ViewController.swift */; };
+		7AA47E7D22D60A3B0019ED1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA47E7B22D60A3B0019ED1C /* Main.storyboard */; };
+		7AA47E7F22D60A3B0019ED1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA47E7E22D60A3B0019ED1C /* Assets.xcassets */; };
+		7AA47E8222D60A3B0019ED1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA47E8022D60A3B0019ED1C /* LaunchScreen.storyboard */; };
+		7AA47E8D22D60A3C0019ED1C /* WMTagViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47E8C22D60A3C0019ED1C /* WMTagViewTests.swift */; };
+		7AA47E9822D60A3C0019ED1C /* WMTagViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47E9722D60A3C0019ED1C /* WMTagViewUITests.swift */; };
+		7AA47EA722D60CD00019ED1C /* WMDeleteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47EA622D60CD00019ED1C /* WMDeleteLabel.swift */; };
+		7AA47EA922D61A690019ED1C /* WMUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47EA822D61A690019ED1C /* WMUtils.swift */; };
+		97633324CF61164488E5341F /* Pods_WMTagView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1D66441F06138463D8EC64 /* Pods_WMTagView.framework */; };
+		D79A64DE89D327E1BEB96B08 /* Pods_WMTagViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810B7A0A517D681A8C157823 /* Pods_WMTagViewTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA47E8922D60A3C0019ED1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA47E6C22D60A3B0019ED1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA47E7322D60A3B0019ED1C;
+			remoteInfo = WMTagView;
+		};
+		7AA47E9422D60A3C0019ED1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA47E6C22D60A3B0019ED1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA47E7322D60A3B0019ED1C;
+			remoteInfo = WMTagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42E6D035D2B1793B2DCC9884 /* Pods-WMTagView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMTagView.release.xcconfig"; path = "Target Support Files/Pods-WMTagView/Pods-WMTagView.release.xcconfig"; sourceTree = "<group>"; };
+		623E2CEF79F75880039EA945 /* Pods-WMTagViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMTagViewTests.debug.xcconfig"; path = "Target Support Files/Pods-WMTagViewTests/Pods-WMTagViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6520534DC83BEA84BFB7501B /* Pods-WMTagViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMTagViewTests.release.xcconfig"; path = "Target Support Files/Pods-WMTagViewTests/Pods-WMTagViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B1EDF09A9937A78727EFC00 /* Pods_WMTagViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMTagViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A135CDD22D6CB3E0036AFAA /* WMTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTagView.swift; sourceTree = "<group>"; };
+		7A135D2422D7034F0036AFAA /* WMDeleteListenTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMDeleteListenTextField.swift; sourceTree = "<group>"; };
+		7A135D2622D70B560036AFAA /* WMCopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCopyableLabel.swift; sourceTree = "<group>"; };
+		7A135D2822D71E690036AFAA /* WMTagViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTagViewHeader.h; sourceTree = "<group>"; };
+		7A135D2A22D721BF0036AFAA /* WMTagLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTagLabel.swift; sourceTree = "<group>"; };
+		7A135D2C22D7257C0036AFAA /* WMTagMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTagMaker.swift; sourceTree = "<group>"; };
+		7A135D2E22D7348E0036AFAA /* AddTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagViewController.swift; sourceTree = "<group>"; };
+		7A135D3022D734A90036AFAA /* ShowTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTagViewController.swift; sourceTree = "<group>"; };
+		7AA47E7422D60A3B0019ED1C /* WMTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA47E7722D60A3B0019ED1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA47E7922D60A3B0019ED1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AA47E7C22D60A3B0019ED1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA47E7E22D60A3B0019ED1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA47E8122D60A3B0019ED1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA47E8322D60A3B0019ED1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA47E8822D60A3C0019ED1C /* WMTagViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMTagViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA47E8C22D60A3C0019ED1C /* WMTagViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTagViewTests.swift; sourceTree = "<group>"; };
+		7AA47E8E22D60A3C0019ED1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA47E9322D60A3C0019ED1C /* WMTagViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMTagViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA47E9722D60A3C0019ED1C /* WMTagViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTagViewUITests.swift; sourceTree = "<group>"; };
+		7AA47E9922D60A3C0019ED1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA47EA622D60CD00019ED1C /* WMDeleteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMDeleteLabel.swift; sourceTree = "<group>"; };
+		7AA47EA822D61A690019ED1C /* WMUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMUtils.swift; sourceTree = "<group>"; };
+		806D40B42572E3563928F1BE /* Pods-WMTagView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMTagView.debug.xcconfig"; path = "Target Support Files/Pods-WMTagView/Pods-WMTagView.debug.xcconfig"; sourceTree = "<group>"; };
+		810B7A0A517D681A8C157823 /* Pods_WMTagViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMTagViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE328B264F70879E8EE1860 /* Pods-WMTagViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMTagViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-WMTagViewUITests/Pods-WMTagViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1D66441F06138463D8EC64 /* Pods_WMTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD69825EBB22EF15E1FF7B69 /* Pods-WMTagViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMTagViewUITests.release.xcconfig"; path = "Target Support Files/Pods-WMTagViewUITests/Pods-WMTagViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA47E7122D60A3B0019ED1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97633324CF61164488E5341F /* Pods_WMTagView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA47E8522D60A3C0019ED1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A64DE89D327E1BEB96B08 /* Pods_WMTagViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA47E9022D60A3C0019ED1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C02BC0CCCA310263196150 /* Pods_WMTagViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8CC184FDD0C9DCD9640FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D66441F06138463D8EC64 /* Pods_WMTagView.framework */,
+				810B7A0A517D681A8C157823 /* Pods_WMTagViewTests.framework */,
+				6B1EDF09A9937A78727EFC00 /* Pods_WMTagViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A135D2922D7219C0036AFAA /* WMTagLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7A135D2A22D721BF0036AFAA /* WMTagLabel.swift */,
+				7A135D2C22D7257C0036AFAA /* WMTagMaker.swift */,
+			);
+			path = WMTagLabel;
+			sourceTree = "<group>";
+		};
+		7AA47E6B22D60A3B0019ED1C = {
+			isa = PBXGroup;
+			children = (
+				7AA47E7622D60A3B0019ED1C /* WMTagView */,
+				7AA47E8B22D60A3C0019ED1C /* WMTagViewTests */,
+				7AA47E9622D60A3C0019ED1C /* WMTagViewUITests */,
+				7AA47E7522D60A3B0019ED1C /* Products */,
+				A61DDBFD02B4ACF630F99D57 /* Pods */,
+				4A8CC184FDD0C9DCD9640FCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA47E7522D60A3B0019ED1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA47E7422D60A3B0019ED1C /* WMTagView.app */,
+				7AA47E8822D60A3C0019ED1C /* WMTagViewTests.xctest */,
+				7AA47E9322D60A3C0019ED1C /* WMTagViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA47E7622D60A3B0019ED1C /* WMTagView */ = {
+			isa = PBXGroup;
+			children = (
+				7A135D2922D7219C0036AFAA /* WMTagLabel */,
+				7AA47EA522D60A650019ED1C /* WMTagView */,
+				7AA47E7722D60A3B0019ED1C /* AppDelegate.swift */,
+				7AA47E7922D60A3B0019ED1C /* ViewController.swift */,
+				7A135D2E22D7348E0036AFAA /* AddTagViewController.swift */,
+				7A135D3022D734A90036AFAA /* ShowTagViewController.swift */,
+				7A135D2822D71E690036AFAA /* WMTagViewHeader.h */,
+				7AA47E7B22D60A3B0019ED1C /* Main.storyboard */,
+				7AA47E7E22D60A3B0019ED1C /* Assets.xcassets */,
+				7AA47E8022D60A3B0019ED1C /* LaunchScreen.storyboard */,
+				7AA47E8322D60A3B0019ED1C /* Info.plist */,
+			);
+			path = WMTagView;
+			sourceTree = "<group>";
+		};
+		7AA47E8B22D60A3C0019ED1C /* WMTagViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA47E8C22D60A3C0019ED1C /* WMTagViewTests.swift */,
+				7AA47E8E22D60A3C0019ED1C /* Info.plist */,
+			);
+			path = WMTagViewTests;
+			sourceTree = "<group>";
+		};
+		7AA47E9622D60A3C0019ED1C /* WMTagViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA47E9722D60A3C0019ED1C /* WMTagViewUITests.swift */,
+				7AA47E9922D60A3C0019ED1C /* Info.plist */,
+			);
+			path = WMTagViewUITests;
+			sourceTree = "<group>";
+		};
+		7AA47EA522D60A650019ED1C /* WMTagView */ = {
+			isa = PBXGroup;
+			children = (
+				7AA47EA622D60CD00019ED1C /* WMDeleteLabel.swift */,
+				7AA47EA822D61A690019ED1C /* WMUtils.swift */,
+				7A135CDD22D6CB3E0036AFAA /* WMTagView.swift */,
+				7A135D2422D7034F0036AFAA /* WMDeleteListenTextField.swift */,
+				7A135D2622D70B560036AFAA /* WMCopyableLabel.swift */,
+			);
+			path = WMTagView;
+			sourceTree = "<group>";
+		};
+		A61DDBFD02B4ACF630F99D57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				806D40B42572E3563928F1BE /* Pods-WMTagView.debug.xcconfig */,
+				42E6D035D2B1793B2DCC9884 /* Pods-WMTagView.release.xcconfig */,
+				623E2CEF79F75880039EA945 /* Pods-WMTagViewTests.debug.xcconfig */,
+				6520534DC83BEA84BFB7501B /* Pods-WMTagViewTests.release.xcconfig */,
+				9BE328B264F70879E8EE1860 /* Pods-WMTagViewUITests.debug.xcconfig */,
+				CD69825EBB22EF15E1FF7B69 /* Pods-WMTagViewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA47E7322D60A3B0019ED1C /* WMTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA47E9C22D60A3C0019ED1C /* Build configuration list for PBXNativeTarget "WMTagView" */;
+			buildPhases = (
+				6A7343D7F6C6BBFFADBB9F92 /* [CP] Check Pods Manifest.lock */,
+				7AA47E7022D60A3B0019ED1C /* Sources */,
+				7AA47E7122D60A3B0019ED1C /* Frameworks */,
+				7AA47E7222D60A3B0019ED1C /* Resources */,
+				AD32AF6FF0E18AE3B0D4AD9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMTagView;
+			productName = WMTagView;
+			productReference = 7AA47E7422D60A3B0019ED1C /* WMTagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AA47E8722D60A3C0019ED1C /* WMTagViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA47E9F22D60A3C0019ED1C /* Build configuration list for PBXNativeTarget "WMTagViewTests" */;
+			buildPhases = (
+				C19C4B58278FAE69DAD8FE02 /* [CP] Check Pods Manifest.lock */,
+				7AA47E8422D60A3C0019ED1C /* Sources */,
+				7AA47E8522D60A3C0019ED1C /* Frameworks */,
+				7AA47E8622D60A3C0019ED1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA47E8A22D60A3C0019ED1C /* PBXTargetDependency */,
+			);
+			name = WMTagViewTests;
+			productName = WMTagViewTests;
+			productReference = 7AA47E8822D60A3C0019ED1C /* WMTagViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AA47E9222D60A3C0019ED1C /* WMTagViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA47EA222D60A3C0019ED1C /* Build configuration list for PBXNativeTarget "WMTagViewUITests" */;
+			buildPhases = (
+				908321C25103F4CCBEE3148D /* [CP] Check Pods Manifest.lock */,
+				7AA47E8F22D60A3C0019ED1C /* Sources */,
+				7AA47E9022D60A3C0019ED1C /* Frameworks */,
+				7AA47E9122D60A3C0019ED1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA47E9522D60A3C0019ED1C /* PBXTargetDependency */,
+			);
+			name = WMTagViewUITests;
+			productName = WMTagViewUITests;
+			productReference = 7AA47E9322D60A3C0019ED1C /* WMTagViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA47E6C22D60A3B0019ED1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wumeng;
+				TargetAttributes = {
+					7AA47E7322D60A3B0019ED1C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7AA47E8722D60A3C0019ED1C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7AA47E7322D60A3B0019ED1C;
+					};
+					7AA47E9222D60A3C0019ED1C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7AA47E7322D60A3B0019ED1C;
+					};
+				};
+			};
+			buildConfigurationList = 7AA47E6F22D60A3B0019ED1C /* Build configuration list for PBXProject "WMTagView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA47E6B22D60A3B0019ED1C;
+			productRefGroup = 7AA47E7522D60A3B0019ED1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA47E7322D60A3B0019ED1C /* WMTagView */,
+				7AA47E8722D60A3C0019ED1C /* WMTagViewTests */,
+				7AA47E9222D60A3C0019ED1C /* WMTagViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA47E7222D60A3B0019ED1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA47E8222D60A3B0019ED1C /* LaunchScreen.storyboard in Resources */,
+				7AA47E7F22D60A3B0019ED1C /* Assets.xcassets in Resources */,
+				7AA47E7D22D60A3B0019ED1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA47E8622D60A3C0019ED1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA47E9122D60A3C0019ED1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A7343D7F6C6BBFFADBB9F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMTagView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908321C25103F4CCBEE3148D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMTagViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD32AF6FF0E18AE3B0D4AD9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WMTagView/Pods-WMTagView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WMTagView/Pods-WMTagView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WMTagView/Pods-WMTagView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19C4B58278FAE69DAD8FE02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMTagViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA47E7022D60A3B0019ED1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA47EA722D60CD00019ED1C /* WMDeleteLabel.swift in Sources */,
+				7A135D2F22D7348E0036AFAA /* AddTagViewController.swift in Sources */,
+				7AA47EA922D61A690019ED1C /* WMUtils.swift in Sources */,
+				7A135CDE22D6CB3E0036AFAA /* WMTagView.swift in Sources */,
+				7A135D2B22D721BF0036AFAA /* WMTagLabel.swift in Sources */,
+				7A135D2D22D7257C0036AFAA /* WMTagMaker.swift in Sources */,
+				7AA47E7A22D60A3B0019ED1C /* ViewController.swift in Sources */,
+				7AA47E7822D60A3B0019ED1C /* AppDelegate.swift in Sources */,
+				7A135D2522D7034F0036AFAA /* WMDeleteListenTextField.swift in Sources */,
+				7A135D2722D70B560036AFAA /* WMCopyableLabel.swift in Sources */,
+				7A135D3122D734A90036AFAA /* ShowTagViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA47E8422D60A3C0019ED1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA47E8D22D60A3C0019ED1C /* WMTagViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA47E8F22D60A3C0019ED1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA47E9822D60A3C0019ED1C /* WMTagViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA47E8A22D60A3C0019ED1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA47E7322D60A3B0019ED1C /* WMTagView */;
+			targetProxy = 7AA47E8922D60A3C0019ED1C /* PBXContainerItemProxy */;
+		};
+		7AA47E9522D60A3C0019ED1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA47E7322D60A3B0019ED1C /* WMTagView */;
+			targetProxy = 7AA47E9422D60A3C0019ED1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AA47E7B22D60A3B0019ED1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA47E7C22D60A3B0019ED1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA47E8022D60A3B0019ED1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA47E8122D60A3B0019ED1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA47E9A22D60A3C0019ED1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA47E9B22D60A3C0019ED1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA47E9D22D60A3C0019ED1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806D40B42572E3563928F1BE /* Pods-WMTagView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumeng.test.WMTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA47E9E22D60A3C0019ED1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E6D035D2B1793B2DCC9884 /* Pods-WMTagView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumeng.test.WMTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AA47EA022D60A3C0019ED1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623E2CEF79F75880039EA945 /* Pods-WMTagViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMTagViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumeng.test.WMTagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMTagView.app/WMTagView";
+			};
+			name = Debug;
+		};
+		7AA47EA122D60A3C0019ED1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6520534DC83BEA84BFB7501B /* Pods-WMTagViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMTagViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumeng.test.WMTagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMTagView.app/WMTagView";
+			};
+			name = Release;
+		};
+		7AA47EA322D60A3C0019ED1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE328B264F70879E8EE1860 /* Pods-WMTagViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMTagViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumeng.test.WMTagViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WMTagView;
+			};
+			name = Debug;
+		};
+		7AA47EA422D60A3C0019ED1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD69825EBB22EF15E1FF7B69 /* Pods-WMTagViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMTagViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumeng.test.WMTagViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WMTagView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA47E6F22D60A3B0019ED1C /* Build configuration list for PBXProject "WMTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA47E9A22D60A3C0019ED1C /* Debug */,
+				7AA47E9B22D60A3C0019ED1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA47E9C22D60A3C0019ED1C /* Build configuration list for PBXNativeTarget "WMTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA47E9D22D60A3C0019ED1C /* Debug */,
+				7AA47E9E22D60A3C0019ED1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA47E9F22D60A3C0019ED1C /* Build configuration list for PBXNativeTarget "WMTagViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA47EA022D60A3C0019ED1C /* Debug */,
+				7AA47EA122D60A3C0019ED1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA47EA222D60A3C0019ED1C /* Build configuration list for PBXNativeTarget "WMTagViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA47EA322D60A3C0019ED1C /* Debug */,
+				7AA47EA422D60A3C0019ED1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA47E6C22D60A3B0019ED1C /* Project object */;
+}

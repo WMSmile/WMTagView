@@ -1,0 +1,22 @@
+PODS:
+  - SnapKit (5.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - SnapKit
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+    - YYKit
+
+SPEC CHECKSUMS:
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 5e8c634219859d7ac5dad190acecc6722c619a67
+
+COCOAPODS: 1.7.2
