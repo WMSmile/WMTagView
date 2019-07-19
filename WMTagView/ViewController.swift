@@ -28,6 +28,11 @@ class ViewController: UIViewController {
         let vc = ShowTagViewController();
         self.navigationController?.pushViewController(vc, animated: true);
     }
+    @IBAction func checkbox(_ sender: Any) {
+        
+        let vc = CheckBoxViewController();
+        self.navigationController?.pushViewController(vc, animated: true);
+    }
     
 }
 

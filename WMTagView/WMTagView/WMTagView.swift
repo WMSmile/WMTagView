@@ -124,11 +124,21 @@ class WMTagView: UIView ,WMLabelDelegate,UITextFieldDelegate{
         
         
     }
-    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if !textField.text!.isEmpty {
+            if !self.tags.contains(textField.text!) {
+                self.tags.append(textField.text ?? "")
+            }
+            self.WM_FUNC_layoutTagsView()
+            textField.text = "";
+        }
+    }
     //MARK:- UITextFieldDelegate
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if !(textField.text?.isEmpty ?? false){
-            self.tags.append(textField.text!)
+            if !self.tags.contains(textField.text!) {
+                self.tags.append(textField.text ?? "")
+            }
             self.WM_FUNC_layoutTagsView()
             textField.text = "";
         }

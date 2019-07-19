@@ -15,6 +15,12 @@
 		7A135D2D22D7257C0036AFAA /* WMTagMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2C22D7257C0036AFAA /* WMTagMaker.swift */; };
 		7A135D2F22D7348E0036AFAA /* AddTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D2E22D7348E0036AFAA /* AddTagViewController.swift */; };
 		7A135D3122D734A90036AFAA /* ShowTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A135D3022D734A90036AFAA /* ShowTagViewController.swift */; };
+		7A7E4AF322E1649300B259F6 /* CheckBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E4AF222E1649300B259F6 /* CheckBoxViewController.swift */; };
+		7A7E4AF822E164FC00B259F6 /* WMCheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E4AF722E164FC00B259F6 /* WMCheckBoxView.swift */; };
+		7A7E4AFA22E1653000B259F6 /* WMCheckBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E4AF922E1653000B259F6 /* WMCheckBoxModel.swift */; };
+		7A7E4AFC22E1658C00B259F6 /* WMSelectedItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E4AFB22E1658C00B259F6 /* WMSelectedItemProtocol.swift */; };
+		7A7E4AFE22E1660200B259F6 /* WMBaseItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E4AFD22E1660200B259F6 /* WMBaseItemModel.swift */; };
+		7A7E4B0022E1666D00B259F6 /* WMTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E4AFF22E1666D00B259F6 /* WMTools.swift */; };
 		7AA47E7822D60A3B0019ED1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47E7722D60A3B0019ED1C /* AppDelegate.swift */; };
 		7AA47E7A22D60A3B0019ED1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA47E7922D60A3B0019ED1C /* ViewController.swift */; };
 		7AA47E7D22D60A3B0019ED1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA47E7B22D60A3B0019ED1C /* Main.storyboard */; };
@@ -58,6 +64,12 @@
 		7A135D2C22D7257C0036AFAA /* WMTagMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTagMaker.swift; sourceTree = "<group>"; };
 		7A135D2E22D7348E0036AFAA /* AddTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagViewController.swift; sourceTree = "<group>"; };
 		7A135D3022D734A90036AFAA /* ShowTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTagViewController.swift; sourceTree = "<group>"; };
+		7A7E4AF222E1649300B259F6 /* CheckBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxViewController.swift; sourceTree = "<group>"; };
+		7A7E4AF722E164FC00B259F6 /* WMCheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCheckBoxView.swift; sourceTree = "<group>"; };
+		7A7E4AF922E1653000B259F6 /* WMCheckBoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCheckBoxModel.swift; sourceTree = "<group>"; };
+		7A7E4AFB22E1658C00B259F6 /* WMSelectedItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMSelectedItemProtocol.swift; sourceTree = "<group>"; };
+		7A7E4AFD22E1660200B259F6 /* WMBaseItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMBaseItemModel.swift; sourceTree = "<group>"; };
+		7A7E4AFF22E1666D00B259F6 /* WMTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTools.swift; sourceTree = "<group>"; };
 		7AA47E7422D60A3B0019ED1C /* WMTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA47E7722D60A3B0019ED1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA47E7922D60A3B0019ED1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +139,33 @@
 			path = WMTagLabel;
 			sourceTree = "<group>";
 		};
+		7A7E4AF422E164D600B259F6 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E4AF522E164D600B259F6 /* Models */,
+				7A7E4AF622E164D600B259F6 /* Views */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		7A7E4AF522E164D600B259F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E4AF922E1653000B259F6 /* WMCheckBoxModel.swift */,
+				7A7E4AFB22E1658C00B259F6 /* WMSelectedItemProtocol.swift */,
+				7A7E4AFD22E1660200B259F6 /* WMBaseItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A7E4AF622E164D600B259F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E4AF722E164FC00B259F6 /* WMCheckBoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7AA47E6B22D60A3B0019ED1C = {
 			isa = PBXGroup;
 			children = (
@@ -152,17 +191,20 @@
 		7AA47E7622D60A3B0019ED1C /* WMTagView */ = {
 			isa = PBXGroup;
 			children = (
+				7A7E4AF422E164D600B259F6 /* CheckBox */,
 				7A135D2922D7219C0036AFAA /* WMTagLabel */,
 				7AA47EA522D60A650019ED1C /* WMTagView */,
 				7AA47E7722D60A3B0019ED1C /* AppDelegate.swift */,
 				7AA47E7922D60A3B0019ED1C /* ViewController.swift */,
 				7A135D2E22D7348E0036AFAA /* AddTagViewController.swift */,
 				7A135D3022D734A90036AFAA /* ShowTagViewController.swift */,
+				7A7E4AF222E1649300B259F6 /* CheckBoxViewController.swift */,
 				7A135D2822D71E690036AFAA /* WMTagViewHeader.h */,
 				7AA47E7B22D60A3B0019ED1C /* Main.storyboard */,
 				7AA47E7E22D60A3B0019ED1C /* Assets.xcassets */,
 				7AA47E8022D60A3B0019ED1C /* LaunchScreen.storyboard */,
 				7AA47E8322D60A3B0019ED1C /* Info.plist */,
+				7A7E4AFF22E1666D00B259F6 /* WMTools.swift */,
 			);
 			path = WMTagView;
 			sourceTree = "<group>";
@@ -432,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA47EA722D60CD00019ED1C /* WMDeleteLabel.swift in Sources */,
+				7A7E4AF822E164FC00B259F6 /* WMCheckBoxView.swift in Sources */,
 				7A135D2F22D7348E0036AFAA /* AddTagViewController.swift in Sources */,
 				7AA47EA922D61A690019ED1C /* WMUtils.swift in Sources */,
 				7A135CDE22D6CB3E0036AFAA /* WMTagView.swift in Sources */,
@@ -439,9 +482,14 @@
 				7A135D2D22D7257C0036AFAA /* WMTagMaker.swift in Sources */,
 				7AA47E7A22D60A3B0019ED1C /* ViewController.swift in Sources */,
 				7AA47E7822D60A3B0019ED1C /* AppDelegate.swift in Sources */,
+				7A7E4B0022E1666D00B259F6 /* WMTools.swift in Sources */,
 				7A135D2522D7034F0036AFAA /* WMDeleteListenTextField.swift in Sources */,
+				7A7E4AFA22E1653000B259F6 /* WMCheckBoxModel.swift in Sources */,
+				7A7E4AF322E1649300B259F6 /* CheckBoxViewController.swift in Sources */,
 				7A135D2722D70B560036AFAA /* WMCopyableLabel.swift in Sources */,
 				7A135D3122D734A90036AFAA /* ShowTagViewController.swift in Sources */,
+				7A7E4AFC22E1658C00B259F6 /* WMSelectedItemProtocol.swift in Sources */,
+				7A7E4AFE22E1660200B259F6 /* WMBaseItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
